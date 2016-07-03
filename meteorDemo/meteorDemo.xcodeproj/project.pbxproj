@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		CA8708F91D29538500975289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708F81D29538500975289 /* main.m */; };
 		CA8708FC1D29538500975289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708FB1D29538500975289 /* AppDelegate.m */; };
-		CA8708FF1D29538500975289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708FE1D29538500975289 /* ViewController.m */; };
-		CA8709021D29538500975289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8709001D29538500975289 /* Main.storyboard */; };
 		CA8709041D29538500975289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8709031D29538500975289 /* Assets.xcassets */; };
-		CA8709071D29538500975289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8709051D29538500975289 /* LaunchScreen.storyboard */; };
+		CA8709101D29582D00975289 /* LXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87090F1D29582D00975289 /* LXTabBar.m */; };
+		CA8709131D29584D00975289 /* LXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8709121D29584D00975289 /* LXTabBarController.m */; };
+		CA8709161D29585F00975289 /* meViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8709151D29585F00975289 /* meViewController.m */; };
+		CA8709191D29586D00975289 /* moviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8709181D29586D00975289 /* moviesViewController.m */; };
+		CA87091C1D29587800975289 /* readViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87091B1D29587800975289 /* readViewController.m */; };
+		CA87091F1D29589800975289 /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87091E1D29589800975289 /* newsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,20 @@
 		CA8708F81D29538500975289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8708FA1D29538500975289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA8708FB1D29538500975289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA8708FD1D29538500975289 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA8708FE1D29538500975289 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA8709011D29538500975289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA8709031D29538500975289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA8709061D29538500975289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA8709081D29538500975289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA87090E1D29582D00975289 /* LXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTabBar.h; sourceTree = "<group>"; };
+		CA87090F1D29582D00975289 /* LXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTabBar.m; sourceTree = "<group>"; };
+		CA8709111D29584D00975289 /* LXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTabBarController.h; sourceTree = "<group>"; };
+		CA8709121D29584D00975289 /* LXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTabBarController.m; sourceTree = "<group>"; };
+		CA8709141D29585F00975289 /* meViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meViewController.h; sourceTree = "<group>"; };
+		CA8709151D29585F00975289 /* meViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = meViewController.m; sourceTree = "<group>"; };
+		CA8709171D29586D00975289 /* moviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moviesViewController.h; sourceTree = "<group>"; };
+		CA8709181D29586D00975289 /* moviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moviesViewController.m; sourceTree = "<group>"; };
+		CA87091A1D29587800975289 /* readViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readViewController.h; sourceTree = "<group>"; };
+		CA87091B1D29587800975289 /* readViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = readViewController.m; sourceTree = "<group>"; };
+		CA87091D1D29589800975289 /* newsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsViewController.h; sourceTree = "<group>"; };
+		CA87091E1D29589800975289 /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +71,18 @@
 			children = (
 				CA8708FA1D29538500975289 /* AppDelegate.h */,
 				CA8708FB1D29538500975289 /* AppDelegate.m */,
-				CA8708FD1D29538500975289 /* ViewController.h */,
-				CA8708FE1D29538500975289 /* ViewController.m */,
-				CA8709001D29538500975289 /* Main.storyboard */,
-				CA8709031D29538500975289 /* Assets.xcassets */,
-				CA8709051D29538500975289 /* LaunchScreen.storyboard */,
-				CA8709081D29538500975289 /* Info.plist */,
+				CA87091D1D29589800975289 /* newsViewController.h */,
+				CA87091E1D29589800975289 /* newsViewController.m */,
+				CA87091A1D29587800975289 /* readViewController.h */,
+				CA87091B1D29587800975289 /* readViewController.m */,
+				CA8709171D29586D00975289 /* moviesViewController.h */,
+				CA8709181D29586D00975289 /* moviesViewController.m */,
+				CA8709141D29585F00975289 /* meViewController.h */,
+				CA8709151D29585F00975289 /* meViewController.m */,
+				CA8709111D29584D00975289 /* LXTabBarController.h */,
+				CA8709121D29584D00975289 /* LXTabBarController.m */,
+				CA87090E1D29582D00975289 /* LXTabBar.h */,
+				CA87090F1D29582D00975289 /* LXTabBar.m */,
 				CA8708F71D29538500975289 /* Supporting Files */,
 			);
 			path = meteorDemo;
@@ -74,6 +91,8 @@
 		CA8708F71D29538500975289 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA8709031D29538500975289 /* Assets.xcassets */,
+				CA8709081D29538500975289 /* Info.plist */,
 				CA8708F81D29538500975289 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,9 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8709071D29538500975289 /* LaunchScreen.storyboard in Resources */,
 				CA8709041D29538500975289 /* Assets.xcassets in Resources */,
-				CA8709021D29538500975289 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8708FF1D29538500975289 /* ViewController.m in Sources */,
 				CA8708FC1D29538500975289 /* AppDelegate.m in Sources */,
+				CA8709101D29582D00975289 /* LXTabBar.m in Sources */,
+				CA87091C1D29587800975289 /* readViewController.m in Sources */,
+				CA87091F1D29589800975289 /* newsViewController.m in Sources */,
 				CA8708F91D29538500975289 /* main.m in Sources */,
+				CA8709191D29586D00975289 /* moviesViewController.m in Sources */,
+				CA8709131D29584D00975289 /* LXTabBarController.m in Sources */,
+				CA8709161D29585F00975289 /* meViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CA8709001D29538500975289 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA8709011D29538500975289 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA8709051D29538500975289 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA8709061D29538500975289 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CA8709091D29538500975289 /* Debug */ = {
@@ -263,7 +266,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = meteorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.meteorDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = meteorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.meteorDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +307,7 @@
 				CA87090D1D29538500975289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
