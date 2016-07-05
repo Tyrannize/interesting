@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //设置导航栏标题
+    self.navigationItem.title = @"文章";
+    // 设置导航栏左边的按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+}
+
+- (void)tagClick {
+    NSLog(@"成功");
 }
 
 - (void)didReceiveMemoryWarning {

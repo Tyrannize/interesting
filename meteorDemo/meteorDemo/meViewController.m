@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"我的";
+    
+    //设置导航条右面的按钮
+    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)];
+    self.navigationItem.rightBarButtonItem = settingItem;
+    
+}
+
+//按钮点击事件
+- (void)settingClick {
+    LXLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

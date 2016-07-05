@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA069E921D2A5D6500A917DB /* UIView+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CA069E911D2A5D6500A917DB /* UIView+LXExtension.m */; };
 		CA8708F91D29538500975289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708F81D29538500975289 /* main.m */; };
 		CA8708FC1D29538500975289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708FB1D29538500975289 /* AppDelegate.m */; };
 		CA8709041D29538500975289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8709031D29538500975289 /* Assets.xcassets */; };
@@ -16,9 +17,13 @@
 		CA8709191D29586D00975289 /* moviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8709181D29586D00975289 /* moviesViewController.m */; };
 		CA87091C1D29587800975289 /* readViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87091B1D29587800975289 /* readViewController.m */; };
 		CA87091F1D29589800975289 /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87091E1D29589800975289 /* newsViewController.m */; };
+		CAA93B971D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA93B961D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA069E8E1D2A5CA800A917DB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CA069E901D2A5D6500A917DB /* UIView+LXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXExtension.h"; sourceTree = "<group>"; };
+		CA069E911D2A5D6500A917DB /* UIView+LXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXExtension.m"; sourceTree = "<group>"; };
 		CA8708F41D29538500975289 /* meteorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meteorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8708F81D29538500975289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8708FA1D29538500975289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +42,8 @@
 		CA87091B1D29587800975289 /* readViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = readViewController.m; sourceTree = "<group>"; };
 		CA87091D1D29589800975289 /* newsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsViewController.h; sourceTree = "<group>"; };
 		CA87091E1D29589800975289 /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsViewController.m; sourceTree = "<group>"; };
+		CAA93B951D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LXbtn.h"; sourceTree = "<group>"; };
+		CAA93B961D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LXbtn.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,11 @@
 				CA8709121D29584D00975289 /* LXTabBarController.m */,
 				CA87090E1D29582D00975289 /* LXTabBar.h */,
 				CA87090F1D29582D00975289 /* LXTabBar.m */,
+				CA069E901D2A5D6500A917DB /* UIView+LXExtension.h */,
+				CA069E911D2A5D6500A917DB /* UIView+LXExtension.m */,
+				CAA93B951D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.h */,
+				CAA93B961D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.m */,
+				CA069E8E1D2A5CA800A917DB /* PrefixHeader.pch */,
 				CA8708F71D29538500975289 /* Supporting Files */,
 			);
 			path = meteorDemo;
@@ -170,10 +182,12 @@
 				CA8709101D29582D00975289 /* LXTabBar.m in Sources */,
 				CA87091C1D29587800975289 /* readViewController.m in Sources */,
 				CA87091F1D29589800975289 /* newsViewController.m in Sources */,
+				CA069E921D2A5D6500A917DB /* UIView+LXExtension.m in Sources */,
 				CA8708F91D29538500975289 /* main.m in Sources */,
 				CA8709191D29586D00975289 /* moviesViewController.m in Sources */,
 				CA8709131D29584D00975289 /* LXTabBarController.m in Sources */,
 				CA8709161D29585F00975289 /* meViewController.m in Sources */,
+				CAA93B971D2A875800EC9FD1 /* UIBarButtonItem+LXbtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/meteorDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = meteorDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -280,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/meteorDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = meteorDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
