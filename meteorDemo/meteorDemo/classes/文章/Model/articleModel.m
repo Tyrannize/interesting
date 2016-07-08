@@ -12,7 +12,7 @@
 
 +(NSDictionary *)modelCustomPropertyMapper
 {
-    //将关键字转换
+    //将关键字进行转换
     return @{@"ids":@"id"};
 }
 

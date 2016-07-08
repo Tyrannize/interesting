@@ -1,19 +1,18 @@
 //
-//  LXarticleUViewController.m
+//  LXArticalViewController.m
 //  meteorDemo
 //
-//  Created by liuxing on 16/7/6.
+//  Created by liuxing on 16/7/8.
 //  Copyright © 2016年 liuxing. All rights reserved.
 //
 
-#import "LXarticleUViewController.h"
+#import "LXArticalViewController.h"
 #import <AFNetworking.h>
 #import "define.h"
 #import "LXDetailModel.h"
 #import "LXImagModel.h"
 
-
-@interface LXarticleUViewController ()
+@interface LXArticalViewController ()
 
 @property (nonatomic,strong) UIWebView *webView;
 
@@ -25,19 +24,8 @@
 
 @end
 
-@implementation LXarticleUViewController
+@implementation LXArticalViewController
 
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [self creatWebView];
-    [self requestDataWithDict:nil];
-    [self creatUI];
-
-   
-}
-#pragma mark - 懒加载
 - (NSMutableArray *)itemArray {
     if (!_itemArray) {
         _itemArray = [NSMutableArray array];
@@ -49,11 +37,18 @@
     if (self = [super init]) {
         //        self.requestUrl = TK_ARTICLES;
         self.requestUrl = [NSString stringWithFormat:@"http://0.0.0.0:tuicool@api.tuicool.com/api/articles/%@.json?is_pad=1&need_image_meta=1",articleID];
-        //Q7Fvuib
-        //jAJbMvq
-        //        self.requestUrl = @"http://0.0.0.0:tuicool@api.tuicool.com/api/hot";
     }
     return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.tabBarController.tabBar.hidden = YES;
+    
+    [self creatWebView];
+    [self requestDataWithDict:nil];
+    [self creatUI];
+    
 }
 
 - (void)creatUI {
@@ -67,7 +62,7 @@
 }
 
 - (void)btnClick:(UIButton *)sender {
-    NSLog(@"a");
+    
     self.tabBarController.tabBar.hidden = NO;
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
@@ -115,6 +110,7 @@
 }
 
 
+
 - (void)barButtonItemByCustomButtonWithImage:(NSString *)imageName
                             highlightedImage:(NSString *)highlightName target:(id)target action:(SEL)action{
     
@@ -126,6 +122,7 @@
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
     [self.itemArray addObject:barButtonItem];
 }
+
 
 - (void)creatWebView {
     self.webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height + 38)];
@@ -197,7 +194,7 @@
     return contentHtmlString;
 }
 
-#pragma mark - 获取请求数据
+#pragma mark - 请求获取数据
 -(AFHTTPSessionManager *)requestManager
 {
     if (!_requestManager) {
@@ -214,9 +211,6 @@
     }
     return _requestManager;
 }
-
-
-
 
 
 @end
