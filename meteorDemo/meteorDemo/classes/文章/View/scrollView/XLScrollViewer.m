@@ -2,11 +2,10 @@
 //  XLScrollView.m
 //  XLScrollDemo
 //
-//  Created by 章晓亮 on 15/1/12.
-//  Copyright (c) 2015年 ___章晓亮___. All rights reserved.
+//  Created by liuxing on 16/7/1.
+//  Copyright (c) 2016年 ___liuxing___. All rights reserved.
 //
-//新浪微博：@亮亮亮亮亮靓啊
-//工作邮箱：k52471@126.com
+
 
 #define screen_width [UIScreen mainScreen].bounds.size.width
 
@@ -64,8 +63,8 @@
 }
 -(void)addAll {
     if ((self.xl_buttonNames.count || self.xl_views.count) && self.xl_buttonNames.count !=self.xl_views.count) {
-        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"XLScroll友情提醒！" message:@"您填写的按钮数与视图数不一致，请仔细检查代码" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];
-        [alert show];
+        //UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"XLScroll友情提醒！" message:@"您填写的按钮数与视图数不一致，请仔细检查代码" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];
+        //[alert show];
     }else {
         self.xl_buttonNames =self.xl_buttonNames?self.xl_buttonNames:@[@"刘星",@"Liuxing",@"哈哈哈"];
         
@@ -327,6 +326,4 @@
 
 @end
 
-// 版权属于原作者
-// http://code4app.com (cn) http://code4app.net (en)
-// 发布代码于最专业的源码分享网站: Code4App.com 
+

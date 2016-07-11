@@ -21,7 +21,16 @@
 		CA6EBD711D2FD04E009B64B2 /* design.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6EBD651D2FD04E009B64B2 /* design.m */; };
 		CA6EBD741D2FD0D0009B64B2 /* LXArticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6EBD731D2FD0D0009B64B2 /* LXArticalViewController.m */; };
 		CA8708F91D29538500975289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8708F81D29538500975289 /* main.m */; };
-		CA8709041D29538500975289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8709031D29538500975289 /* Assets.xcassets */; };
+		CA9598231D33368400F6EA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9598221D33368400F6EA10 /* Assets.xcassets */; };
+		CA9598261D334B0A00F6EA10 /* LXRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9598251D334B0A00F6EA10 /* LXRecommendTagCell.m */; };
+		CA9598281D334B1C00F6EA10 /* LXRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9598271D334B1C00F6EA10 /* LXRecommendTagCell.xib */; };
+		CA95982B1D337F5F00F6EA10 /* LXRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95982A1D337F5F00F6EA10 /* LXRecommendTag.m */; };
+		CA95982E1D33CB2300F6EA10 /* LXTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95982D1D33CB2300F6EA10 /* LXTopic.m */; };
+		CA9598321D33CC7D00F6EA10 /* LXTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9598301D33CC7D00F6EA10 /* LXTopicCell.m */; };
+		CA9598331D33CC7D00F6EA10 /* LXTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9598311D33CC7D00F6EA10 /* LXTopicCell.xib */; };
+		CA96996B1D30BC8900F2EE9A /* LXPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9699691D30BC8900F2EE9A /* LXPublishViewController.m */; };
+		CA96996C1D30BC8900F2EE9A /* LXPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA96996A1D30BC8900F2EE9A /* LXPublishViewController.xib */; };
+		CA9699701D30E8B600F2EE9A /* LXVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA96996F1D30E8B600F2EE9A /* LXVerticalButton.m */; };
 		CAAF74BE1D2D41B3005B354C /* article_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = CAAF74BD1D2D41B3005B354C /* article_detail.html */; };
 		CAAF74C51D2D42FB005B354C /* LXImagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF74C41D2D42FB005B354C /* LXImagModel.m */; };
 		CAAF74C81D2D4310005B354C /* LXDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF74C71D2D4310005B354C /* LXDetailModel.m */; };
@@ -70,8 +79,23 @@
 		CA6EBD731D2FD0D0009B64B2 /* LXArticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXArticalViewController.m; sourceTree = "<group>"; };
 		CA8708F41D29538500975289 /* meteorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meteorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8708F81D29538500975289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA8709031D29538500975289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA8709081D29538500975289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9598221D33368400F6EA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9598241D334B0A00F6EA10 /* LXRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRecommendTagCell.h; sourceTree = "<group>"; };
+		CA9598251D334B0A00F6EA10 /* LXRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRecommendTagCell.m; sourceTree = "<group>"; };
+		CA9598271D334B1C00F6EA10 /* LXRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXRecommendTagCell.xib; sourceTree = "<group>"; };
+		CA9598291D337F5F00F6EA10 /* LXRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRecommendTag.h; sourceTree = "<group>"; };
+		CA95982A1D337F5F00F6EA10 /* LXRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRecommendTag.m; sourceTree = "<group>"; };
+		CA95982C1D33CB2300F6EA10 /* LXTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTopic.h; sourceTree = "<group>"; };
+		CA95982D1D33CB2300F6EA10 /* LXTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTopic.m; sourceTree = "<group>"; };
+		CA95982F1D33CC7D00F6EA10 /* LXTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTopicCell.h; sourceTree = "<group>"; };
+		CA9598301D33CC7D00F6EA10 /* LXTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTopicCell.m; sourceTree = "<group>"; };
+		CA9598311D33CC7D00F6EA10 /* LXTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXTopicCell.xib; sourceTree = "<group>"; };
+		CA9699681D30BC8900F2EE9A /* LXPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPublishViewController.h; sourceTree = "<group>"; };
+		CA9699691D30BC8900F2EE9A /* LXPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPublishViewController.m; sourceTree = "<group>"; };
+		CA96996A1D30BC8900F2EE9A /* LXPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXPublishViewController.xib; sourceTree = "<group>"; };
+		CA96996E1D30E8B600F2EE9A /* LXVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXVerticalButton.h; sourceTree = "<group>"; };
+		CA96996F1D30E8B600F2EE9A /* LXVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXVerticalButton.m; sourceTree = "<group>"; };
 		CAAF74BD1D2D41B3005B354C /* article_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = article_detail.html; path = "../../我/Model/article_detail.html"; sourceTree = "<group>"; };
 		CAAF74BF1D2D41E1005B354C /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 		CAAF74C31D2D42FB005B354C /* LXImagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXImagModel.h; path = "../../我/Model/LXImagModel.h"; sourceTree = "<group>"; };
@@ -132,11 +156,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CA1B990D1D309FB800E196EC /* 发布按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				CA9699681D30BC8900F2EE9A /* LXPublishViewController.h */,
+				CA9699691D30BC8900F2EE9A /* LXPublishViewController.m */,
+				CA96996A1D30BC8900F2EE9A /* LXPublishViewController.xib */,
+			);
+			name = "发布按钮";
+			sourceTree = "<group>";
+		};
 		CA6EBD431D2FD04E009B64B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				CA6EBD441D2FD04E009B64B2 /* baseView */,
-				CA6EBD471D2FD04E009B64B2 /* scrollView */,
 				CA6EBD4A1D2FD04E009B64B2 /* 创投 */,
 				CA6EBD4D1D2FD04E009B64B2 /* 技术 */,
 				CA6EBD501D2FD04E009B64B2 /* 推荐 */,
@@ -159,13 +192,14 @@
 			path = baseView;
 			sourceTree = "<group>";
 		};
-		CA6EBD471D2FD04E009B64B2 /* scrollView */ = {
+		CA6EBD471D2FD04E009B64B2 /* 自定义Scrollview */ = {
 			isa = PBXGroup;
 			children = (
 				CA6EBD481D2FD04E009B64B2 /* XLScrollViewer.h */,
 				CA6EBD491D2FD04E009B64B2 /* XLScrollViewer.m */,
 			);
-			path = scrollView;
+			name = "自定义Scrollview";
+			path = "../../文章/View/scrollView";
 			sourceTree = "<group>";
 		};
 		CA6EBD4A1D2FD04E009B64B2 /* 创投 */ = {
@@ -280,11 +314,20 @@
 		CA8708F71D29538500975289 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA8709031D29538500975289 /* Assets.xcassets */,
+				CA9598221D33368400F6EA10 /* Assets.xcassets */,
 				CA8709081D29538500975289 /* Info.plist */,
 				CA8708F81D29538500975289 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA96996D1D30E89700F2EE9A /* 自定义button */ = {
+			isa = PBXGroup;
+			children = (
+				CA96996E1D30E8B600F2EE9A /* LXVerticalButton.h */,
+				CA96996F1D30E8B600F2EE9A /* LXVerticalButton.m */,
+			);
+			name = "自定义button";
 			sourceTree = "<group>";
 		};
 		CAB6606F1D2B440800934F27 /* classes */ = {
@@ -294,7 +337,7 @@
 				CAB6607F1D2B440800934F27 /* 我 */,
 				CAB660851D2B440800934F27 /* 文章 */,
 				CAB6608B1D2B440800934F27 /* 视频 */,
-				CAB660911D2B440800934F27 /* 阅读 */,
+				CAB660911D2B440800934F27 /* 趣闻 */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -336,6 +379,9 @@
 		CAB6607C1D2B440800934F27 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				CA6EBD471D2FD04E009B64B2 /* 自定义Scrollview */,
+				CA96996D1D30E89700F2EE9A /* 自定义button */,
+				CA1B990D1D309FB800E196EC /* 发布按钮 */,
 				CAB6607D1D2B440800934F27 /* LXTabBar.h */,
 				CAB6607E1D2B440800934F27 /* LXTabBar.m */,
 			);
@@ -445,13 +491,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		CAB660911D2B440800934F27 /* 阅读 */ = {
+		CAB660911D2B440800934F27 /* 趣闻 */ = {
 			isa = PBXGroup;
 			children = (
 				CAB660921D2B440800934F27 /* Controller */,
 				CAB660951D2B440800934F27 /* Model */,
 				CAB660961D2B440800934F27 /* View */,
 			);
+			name = "趣闻";
 			path = "阅读";
 			sourceTree = "<group>";
 		};
@@ -467,6 +514,10 @@
 		CAB660951D2B440800934F27 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA9598291D337F5F00F6EA10 /* LXRecommendTag.h */,
+				CA95982A1D337F5F00F6EA10 /* LXRecommendTag.m */,
+				CA95982C1D33CB2300F6EA10 /* LXTopic.h */,
+				CA95982D1D33CB2300F6EA10 /* LXTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -474,6 +525,12 @@
 		CAB660961D2B440800934F27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CA9598241D334B0A00F6EA10 /* LXRecommendTagCell.h */,
+				CA9598251D334B0A00F6EA10 /* LXRecommendTagCell.m */,
+				CA9598271D334B1C00F6EA10 /* LXRecommendTagCell.xib */,
+				CA95982F1D33CC7D00F6EA10 /* LXTopicCell.h */,
+				CA9598301D33CC7D00F6EA10 /* LXTopicCell.m */,
+				CA9598311D33CC7D00F6EA10 /* LXTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -540,7 +597,10 @@
 			files = (
 				CA6EBD6D1D2FD04E009B64B2 /* articleTableViewCell.xib in Resources */,
 				CAAF74BE1D2D41B3005B354C /* article_detail.html in Resources */,
-				CA8709041D29538500975289 /* Assets.xcassets in Resources */,
+				CA9598231D33368400F6EA10 /* Assets.xcassets in Resources */,
+				CA9598331D33CC7D00F6EA10 /* LXTopicCell.xib in Resources */,
+				CA96996C1D30BC8900F2EE9A /* LXPublishViewController.xib in Resources */,
+				CA9598281D334B1C00F6EA10 /* LXRecommendTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,19 +664,25 @@
 				CA6EBD6C1D2FD04E009B64B2 /* articleTableViewCell.m in Sources */,
 				CAB660991D2B440800934F27 /* UIView+LXExtension.m in Sources */,
 				CAB6609B1D2B440800934F27 /* LXTabBar.m in Sources */,
+				CA96996B1D30BC8900F2EE9A /* LXPublishViewController.m in Sources */,
 				CAB660981D2B440800934F27 /* UIBarButtonItem+LXbtn.m in Sources */,
 				CAAF74C51D2D42FB005B354C /* LXImagModel.m in Sources */,
 				CAB6609D1D2B440800934F27 /* newsViewController.m in Sources */,
 				CA6EBD711D2FD04E009B64B2 /* design.m in Sources */,
+				CA9598261D334B0A00F6EA10 /* LXRecommendTagCell.m in Sources */,
+				CA9598321D33CC7D00F6EA10 /* LXTopicCell.m in Sources */,
 				CA6EBD741D2FD0D0009B64B2 /* LXArticalViewController.m in Sources */,
 				CAB6609F1D2B440800934F27 /* readViewController.m in Sources */,
+				CA95982E1D33CB2300F6EA10 /* LXTopic.m in Sources */,
 				CAAF74F91D2D52D7005B354C /* articleModel.m in Sources */,
 				CAB660CE1D2BCEAF00934F27 /* settingViewController.m in Sources */,
 				CA6EBD6B1D2FD04E009B64B2 /* digital.m in Sources */,
 				CAB6609A1D2B440800934F27 /* LXTabBarController.m in Sources */,
 				CAB6609C1D2B440800934F27 /* meViewController.m in Sources */,
 				CAB6609E1D2B440800934F27 /* moviesViewController.m in Sources */,
+				CA95982B1D337F5F00F6EA10 /* LXRecommendTag.m in Sources */,
 				CAB660971D2B440800934F27 /* AppDelegate.m in Sources */,
+				CA9699701D30E8B600F2EE9A /* LXVerticalButton.m in Sources */,
 				CA6EBD661D2FD04E009B64B2 /* baseView.m in Sources */,
 				CA6EBD681D2FD04E009B64B2 /* build.m in Sources */,
 				CA6EBD6A1D2FD04E009B64B2 /* recommend.m in Sources */,
@@ -723,8 +789,10 @@
 				INFOPLIST_FILE = meteorDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.meteorDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -738,8 +806,10 @@
 				INFOPLIST_FILE = meteorDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.meteorDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
